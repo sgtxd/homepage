@@ -1,0 +1,67 @@
+@font-face {
+    font-family: cubic;
+    src: url("/fonts/cubic.woff");
+}
+
+html {
+    background-color: #1c1c1c;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li {
+    margin: 20px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 300;
+    word-spacing: 15%;
+    letter-spacing: 4px;
+    font-size: 22px;
+    padding: 20px;
+
+}
+
+li a:hover {
+    color: plum;
+}
+
+#more {
+    cursor: pointer;
+}
+
+#main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    word-spacing: 20%;
+    letter-spacing: 2px;
+}
+
+#main a {
+    color: white;
+    list-style-type: none;
+}
+
+#cubic {
+    /* Text looks a bit lower because fonts, gotta live with that*/
+    font-family: cubic;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#serif {
+    font-weight: 400;
+    font-size: 20px;
+}

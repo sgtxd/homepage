@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<!-- Made proudly in one hour on the verge of sleep on a rainy friday night. -->
+
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <ul>
+        <li><a href="https://github.com/sgtxd">github</a></li>
+        <li><a href="https://myanimelist.net/profile/sgtxd">myanimelist</a></li>
+        <li><a href="mailto:mark@sgtxd.de">e-mail</a></li>
+        <li><a id="more" onclick="contacts()">more</a></li>
+    </ul>
+
+
+    <div id="main">
+        <a id="cubic">sgtxd </a><a id="serif">/ Mark</a>
+        <p>writing bad and uncomplete code since 2017</a>
+
+    </div>
+</body>
+
+</html>
+
+<script>
+
+    function contacts() {
+        if (!document.getElementById("contact")) {
+            document.getElementById("main").style.top = "45%"
+
+            var contacts = document.createElement("div");
+            contacts.id = "contact"
+            contacts.innerHTML = `
+            <br><br>
+            <p>twitter: <a href="https://twitter.com/sgtxd_de">@sgtxd_de</a></p>
+            <p>discord: sgtxd#0846</p>`;
+            document.getElementById("main").appendChild(contacts);
+        } else {
+            document.getElementById("contact").remove();
+            document.getElementById("main").style.top = "50%"
+        }
+
+    }
+
+</script>
