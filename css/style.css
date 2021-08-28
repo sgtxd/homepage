@@ -24,7 +24,7 @@ li a {
     font-weight: 300;
     word-spacing: 15%;
     letter-spacing: 4px;
-    font-size: 22px;
+    font-size: 25px;
     padding: 20px;
 
 }
@@ -58,10 +58,10 @@ li a:hover {
     /* Text looks a bit lower because fonts, gotta live with that*/
     font-family: cubic;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 60px;
 }
 
 #serif {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 50px;
 }
