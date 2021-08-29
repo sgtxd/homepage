@@ -3,6 +3,7 @@
     src: url("/fonts/cubic.woff");
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 html {
     background-color: #1c1c1c;
 }
@@ -20,11 +21,10 @@ li {
 li a {
     color: white;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
-    word-spacing: 15%;
     letter-spacing: 4px;
-    font-size: 25px;
+    font-size: 22px;
     padding: 20px;
 
 }
@@ -44,7 +44,7 @@ li a:hover {
     transform: translateX(-50%) translateY(-50%);
     color: white;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     word-spacing: 20%;
     letter-spacing: 2px;
 }
@@ -58,10 +58,10 @@ li a:hover {
     /* Text looks a bit lower because fonts, gotta live with that*/
     font-family: cubic;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 30px;
 }
 
 #serif {
     font-weight: 400;
-    font-size: 50px;
+    font-size: 20px;
 }
